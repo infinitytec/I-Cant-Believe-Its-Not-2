@@ -6,7 +6,7 @@
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
 // @grant        GM_addStyle
-// @updateURL
+// @updateURL    https://github.com/infinitytec/I-Cant-Beleive-Its-Not-2/raw/master/not2.user.js
 // ==/UserScript==
 
 (function() {
