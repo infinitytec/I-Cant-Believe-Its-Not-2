@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         I can't believe it's not 2.0
+// @name         I can't believe it's not 2
 // @namespace    http://tampermonkey.net/
 // @version      1.1
-// @description  Making 3.0 look like 2.0
+// @description  Making 3.0 look like 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
 // @grant        GM_addStyle
