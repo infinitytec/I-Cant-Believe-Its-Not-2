@@ -1,6 +1,10 @@
 # I-Cant-Beleive-Its-Not-2
 Userscript for Scratch 3.0.
+
 Used to make 3.0 look like 2, because why not?
+
+I use Tapermonkey for installing userscripts.
+
 Install: <https://github.com/infinitytec/I-Cant-Believe-Its-Not-2/raw/master/not2.user.js>
 ## What will change?
 A lot of it. The idea is to make 3.0 look as much like 2 as reasonably possible.
