@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Making 3.0 look like 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
@@ -17,7 +17,7 @@
     style.setAttribute('rel', 'stylesheet');
     style.setAttribute('href', 'https://mrjacobbloom.github.io/scratch-themes-resources/2/style.css');
     document.head.appendChild(style);
-    // import @comp09's filters from tjvr/scratchblocks
+   // import @comp09's filters from tjvr/scratchblocks
     fetch('https://mrjacobbloom.github.io/scratch-themes-resources/2/filters.svg').then(function(response) {
         return response.text();
     }).then(function(response) {
@@ -50,4 +50,5 @@
     GM_addStyle(".icon-button_container_278u5 {filter: saturate(0%);} html body div.index_app_3Qs6X div.gui_page-wrapper_1cgy0.box_box_2jjDp div.gui_body-wrapper_-N0sA.box_box_2jjDp div.gui_flex-wrapper_uXHkj.box_box_2jjDp div.gui_stage-and-target-wrapper_69KBf.gui_large_yTJBa.box_box_2jjDp div.stage-wrapper_stage-wrapper_2bejr.box_box_2jjDp div.box_box_2jjDp div.stage-header_stage-header-wrapper_1F4gT.box_box_2jjDp div.stage-header_stage-menu-wrapper_15JJt.box_box_2jjDp div.stage-header_stage-size-row_14N65 {position: absolute; left: 0;}");
     GM_addStyle(".icon-button_container_278u5:hover {color: #007BE7 !important; -webkit-transform: scale(1.0);-ms-transform: scale(1.0);transform: scale(1.0);filter: saturate(100%);}");
     GM_addStyle(".monitor_monitor_11Vhm {background: #B6B6B6; border: 1.5px solid #9C9EA2;} .monitor_value_3Yexa { box-shadow: inset .5px .5px 2px #4d4d4d; border: 1px solid white;} .menu-bar_menu-bar-item_oLDa-{height: 2rem;}");
+    GM_addStyle("div.menu-bar_menu-bar-item_oLDa-:nth-child(5){position: relative;top: 3rem;right: 14rem;}input.input_input-form_l9eYg:nth-child(1){border: 1px solid #D0D1D2;background: white;color: black;} html, body, .index_app_3Qs6X{overflow: hidden;} .stage-selector_costume-canvas_2L_6h {background: white;} .stage-selector_header-title_33xCt{color: hsla(225, 15%, 40%, 1);}.stage-wrapper_stage-wrapper_2bejr{border-radius: 5px 5px 0 0;background: linear-gradient(to bottom, #fefefe 0%,#e7e9e9 10%);border: 1px solid #D0D1D2;margin: 10px 0 0 auto;}.gui_body-wrapper_-N0sA {background: white;} .backpack_backpack-header_6ltCS{border-radius: 5px 5px 0 0;background: linear-gradient(to bottom, #fefefe 0%,#e7e9e9 100%)}");
 })();
