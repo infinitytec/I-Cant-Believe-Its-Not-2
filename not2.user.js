@@ -5,6 +5,7 @@
 // @description  Making 3.0 look like 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
+// @match        https://beta.scratch.mit.edu/
 // @grant        GM_addStyle
 // @updateURL    https://github.com/infinitytec/I-Cant-Beleive-Its-Not-2/raw/master/not2.user.js
 // ==/UserScript==
