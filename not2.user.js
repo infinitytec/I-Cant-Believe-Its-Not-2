@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
-// @namespace    http://tampermonkey.net/
-// @version      1.3
+// @namespace    infinitytec.github.io
+// @version      1.5
 // @description  Making 3.0 look like 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
 // @match        https://beta.scratch.mit.edu/*
 // @match        https://scratch.mit.edu/projects/editor/*
+// @match        https://scratch.mit.edu/projects/*
 // @grant        GM_addStyle
 // @updateURL    https://github.com/infinitytec/I-Cant-Beleive-Its-Not-2/raw/master/not2.user.js
 // ==/UserScript==
@@ -29,8 +30,8 @@
 //        document.body.appendChild(svg);
 //    });
     //Reposition everything
-    GM_addStyle("html {overflow-y: hidden; min-width: 1240px;}");
-    GM_addStyle(".gui_body-wrapper_-N0sA {height: calc(100% - 2rem);}");
+    GM_addStyle("#app {overflow-y: hidden; min-width: 1240px; }");
+    GM_addStyle(".gui_body-wrapper_-N0sA {height: calc(100% - 2rem);} .stage-header_stage-size-row_14N65 {position:absolute;}");
     GM_addStyle(".gui_flex-wrapper_uXHkj{}");
     GM_addStyle(".gui_editor-wrapper_2DYcj {position: absolute; width: calc(100% - 500px); right:0; height: 97%;}");
     GM_addStyle(".gui_stage-and-target-wrapper_69KBf {position: absolute; width: 40%; left: 0; height: 97%;}");
