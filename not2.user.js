@@ -14,13 +14,13 @@
 
 (function() {
    'use strict';
-//    //Adapeted from NickyNouse
-//    // inject 2.0 stylesheet
+      //Adapeted from NickyNouse
+      //inject 2.0 stylesheet
 //    var style = document.createElement('link');
 //    style.setAttribute('rel', 'stylesheet');
 //    style.setAttribute('href', 'https://mrjacobbloom.github.io/scratch-themes-resources/2/style.css');
 //    document.head.appendChild(style);
-   // import @comp09's filters from tjvr/scratchblocks
+      //import @comp09's filters from tjvr/scratchblocks
 //    fetch('https://mrjacobbloom.github.io/scratch-themes-resources/2/filters.svg').then(function(response) {
 //        return response.text();
 //    }).then(function(response) {
