@@ -6,6 +6,8 @@ Used to make 3.0 look like 2, because why not?
 I use Tapermonkey for installing userscripts.
 
 Install: <https://github.com/infinitytec/I-Cant-Believe-Its-Not-2/raw/master/not2.user.js>
+
+If you want to have blocks look more like Scratch 2's blocks, check out this userscript: <https://github.com/infinitytec/2.0-Colors>
 ## What will change?
 A lot of it. The idea is to make 3.0 look as much like 2 as reasonably possible.
 ## What will stay the same?
