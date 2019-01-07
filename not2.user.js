@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    infinitytec.github.io
-// @version      1.5.2
+// @version      1.6
 // @description  Making 3.0 look like 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
