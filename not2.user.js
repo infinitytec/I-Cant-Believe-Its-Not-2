@@ -14,21 +14,6 @@
 
 (function() {
    'use strict';
-      //Adapeted from NickyNouse
-      //inject 2.0 stylesheet
-//    var style = document.createElement('link');
-//    style.setAttribute('rel', 'stylesheet');
-//    style.setAttribute('href', 'https://mrjacobbloom.github.io/scratch-themes-resources/2/style.css');
-//    document.head.appendChild(style);
-      //import @comp09's filters from tjvr/scratchblocks
-//    fetch('https://mrjacobbloom.github.io/scratch-themes-resources/2/filters.svg').then(function(response) {
-//        return response.text();
-//    }).then(function(response) {
-//        var doc = new DOMParser().parseFromString(response, 'image/svg+xml');
-//        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-//        svg.appendChild(document.importNode(doc.documentElement.firstElementChild, true));
-//        document.body.appendChild(svg);
-//    });
     //Reposition everything
     GM_addStyle("#app {overflow-y: hidden; min-width: 1240px; }");
     GM_addStyle(".gui_body-wrapper_-N0sA {height: calc(100% - 2rem);} .stage-header_stage-size-row_14N65 {position:absolute;}");
