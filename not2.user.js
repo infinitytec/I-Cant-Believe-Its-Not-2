@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    infinitytec.github.io
-// @version      1.6
-// @description  Making 3.0 look like 2.
+// @version      1.7
+// @description  Making Scratch 3.0 look like Scratch 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
 // @match        https://beta.scratch.mit.edu/*
@@ -15,15 +15,15 @@
 (function() {
    'use strict';
     //Reposition everything
-    GM_addStyle("#app {overflow-y: hidden; min-width: 1240px; }");
+    GM_addStyle("#app {overflow-y: hidden; min-width: 1240px; } rect.blocklyMainBackground {fill: #dddede !important;}");
     GM_addStyle(".gui_body-wrapper_-N0sA {height: calc(100% - 2rem);} .stage-header_stage-size-row_14N65 {position:absolute;}");
-    GM_addStyle(".gui_flex-wrapper_uXHkj{}");
+    GM_addStyle(".gui_flex-wrapper_uXHkj{} .stage_stage_1fD7k {border: none;}");
     GM_addStyle(".gui_editor-wrapper_2DYcj {position: absolute; width: calc(100% - 500px); right:0; height: 97%;}");
     GM_addStyle(".gui_stage-and-target-wrapper_69KBf {position: absolute; width: 40%; left: 0; height: 97%;}");
-    GM_addStyle(".blocklyText {font-size: 10pt;}");
+    GM_addStyle(".blocklyText {font-size: 10pt;} .sprite-selector_sprite-selector_2KgCX {width: 428px; } .menu_menu_3k7QT {background: #9c9ea2; top: 30px;}");
     GM_addStyle(".gui_stage-menu-wrapper_W5Ler {border-radius: 10px 10px 0px 0px;border: 1px solid #D0D1D2;margin-left: 0.5rem;margin-right: 0.5rem;margin-top: 5px;}");
     GM_addStyle(".stage-selector_header_2GVr1, .gui_stage-menu-wrapper_W5Ler, .sprite-info_sprite-info_3EyZh, .gui_tab_27Unf.gui_is-selected_sHAiu {border: 1px solid #D0D1D2;background: #fefefe; /* Old browsers */background: -moz-linear-gradient(top, #fefefe 0%, #e7e9e9 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top, #fefefe 0%,#e7e9e9 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom, #fefefe 0%,#e7e9e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e7e9e9',GradientType=0 ); /* IE6-9 */}");
-    GM_addStyle(".stage_stage-wrapper_eRRuk {border-radius: 0px; border: 1px solid #D0D1D2;}");
+    GM_addStyle(".stage_stage-wrapper_eRRuk {border-radius: 0px; border: 1px solid #D0D1D2;} .backpack_backpack-container_2_wGr {margin-top: 10px;}");
     GM_addStyle(".target-pane_stage-selector-wrapper_qekSW {position: relative;right: 85%;}");
     GM_addStyle(".sprite-selector_sprite-selector_2KgCX {position: relative;left: 16.5%;}");
     GM_addStyle(".sprite-selector_scroll-wrapper_3NNnc, .stage-selector_stage-selector_3oWOr, .blocklyFlyoutBackground, .blocklyToolboxDiv, .scratchCategoryMenu{background: #E6E8E8; fill: #E6E8E8; background-color: #E6E8E8;}");
