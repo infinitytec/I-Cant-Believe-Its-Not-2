@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    infinitytec.github.io
-// @version      1.8
+// @version      1.8.1
 // @description  Making Scratch 3.0 look like Scratch 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
@@ -16,6 +16,7 @@
 (function() {
    'use strict';
     //Reposition everything
+    GM_addStyle(".menu-bar_menu-bar-button_3IDN0{height: 1.5rem;} .menu-bar_divider_2VFCm {height: 30px;} .menu-bar_scratch-logo_2uReV{height: 1.5rem !important;}");
     GM_addStyle("#app {overflow-y: hidden; min-width: 1240px; } rect.blocklyMainBackground {fill: #dddede !important;}");
     GM_addStyle(".gui_body-wrapper_-N0sA {height: calc(100% - 2rem);} .stage-header_stage-size-row_14N65 {position:absolute;}");
     GM_addStyle(".gui_flex-wrapper_uXHkj{} .stage_stage_1fD7k {border: none;}");
