@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    infinitytec.github.io
-// @version      1.8.1
+// @version      1.8.2
 // @description  Making Scratch 3.0 look like Scratch 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
@@ -9,6 +9,7 @@
 // @match        https://scratch.mit.edu/projects/editor/*
 // @match        https://scratch.mit.edu/projects/*
 // @match        https://scratch.org/projects/*
+// @match        https://aero-a.github.io/scratch-gui/*
 // @grant        GM_addStyle
 // @updateURL    https://github.com/infinitytec/I-Cant-Beleive-Its-Not-2/raw/master/not2.user.js
 // ==/UserScript==
