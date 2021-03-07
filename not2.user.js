@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         I can't believe it's not 2
 // @namespace    infinitytec.github.io
-// @version      1.8.3
+// @version      1.8.4
 // @description  Making Scratch 3.0 look like Scratch 2.
 // @author       infinitytec
 // @match        https://llk.github.io/scratch-gui/*
@@ -10,6 +10,7 @@
 // @match        https://scratch.mit.edu/projects/*
 // @match        https://scratch.org/projects/*
 // @match        https://aero-a.github.io/scratch-gui/*
+// @match        https://lab.scratch.mit.edu/*
 // @grant        GM_addStyle
 // @updateURL    https://github.com/infinitytec/I-Cant-Beleive-Its-Not-2/raw/master/not2.user.js
 // ==/UserScript==
@@ -43,4 +44,7 @@
     GM_addStyle(".monitor_monitor_11Vhm {background: #B6B6B6; border: 1.5px solid #9C9EA2;} .monitor_value_3Yexa { box-shadow: inset .5px .5px 2px #4d4d4d; border: 1px solid white;} .menu-bar_menu-bar-item_oLDa-{height: 2rem;}");
     GM_addStyle("div.menu-bar_menu-bar-item_oLDa-:nth-child(5){position: relative;top: 3rem;right: 14rem;}input.input_input-form_l9eYg:nth-child(1){border: 1px solid #D0D1D2;background: white;color: black;} .gui, .index_app_3Qs6X{overflow: hidden;} .stage-selector_costume-canvas_2L_6h {background: white;} .stage-selector_header-title_33xCt{color: hsla(225, 15%, 40%, 1);}.stage-wrapper_stage-wrapper_2bejr{border-radius: 5px 5px 0 0;background: linear-gradient(to bottom, #fefefe 0%,#e7e9e9 10%);border: 1px solid #D0D1D2;margin: 10px 0 0 auto;}.gui_body-wrapper_-N0sA {background: white;} .backpack_backpack-header_6ltCS{border-radius: 5px 5px 0 0;background: linear-gradient(to bottom, #fefefe 0%,#e7e9e9 100%)}");
     GM_addStyle(".stage-wrapper_stage-wrapper_2bejr.stage-wrapper_full-screen_2hjMb {margin-top: 0}");
+    // Image editing tools moved to the right thanks to gliczide
+    GM_addStyle(".paint-editor_top-align-row_25164 { direction: rtl !important; } .paint-editor_mode-selector_28iiQ { display: grid; }");
+    GM_addStyle(".stage_stage_1fD7k.stage_full-screen_ZO7xi {border: none;}")
 })();
