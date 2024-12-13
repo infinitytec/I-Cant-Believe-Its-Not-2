@@ -1,5 +1,5 @@
 # I-Cant-Beleive-Its-Not-2
-Userscript for Scratch 3.0. The goal of this is not to make Scratch 3.0 look exactly like Scratch 2.0, but rather ro make it look as similar as reasonably possible.
+Userscript for Scratch 3.0. The goal of this is not to make Scratch 3.0 look exactly like Scratch 2.0, but rather to make it look as similar as reasonably possible.
 
 Used to make 3.0 look like 2, because why not?
 
